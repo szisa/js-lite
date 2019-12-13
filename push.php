@@ -3,8 +3,8 @@ if (isset($_GET["code"]) && isset($_GET["name"]) && isset($_GET["website"])) {
     $_DB = array(
         "server" => "127.0.0.1",
         "database" => "isa",
-        "user" => "root",
-        "passwd" => "12345678",
+        "user" => "isa",
+        "passwd" => "isa_admin",
     );
     
     $data = array(
